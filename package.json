@@ -2,7 +2,7 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://crux16.github.io/Weather-Apps",
+  "homepage": "https://mayotopia04.github.io/Weather-Apps",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /Weather-Apps/"
