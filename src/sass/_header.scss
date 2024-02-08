@@ -1,0 +1,42 @@
+.top-cities-div{
+    display: flex;
+
+}
+
+.top-cities-list{
+    display: flex;
+}
+
+.top-city-btn{
+    background-color: aqua;
+    cursor: pointer;
+}
+
+.minmax-div{
+    display: flex;
+    gap: 20px;
+}
+
+.min{
+    display: block;
+}
+
+.max{
+    display: block;
+}
+
+.buttons-div{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.btn-item{
+    background-color: chartreuse;
+    border: 1px solid gray;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.calendar-space{
+    display: flex;
+}
+
