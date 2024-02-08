@@ -1,3 +1,10 @@
+//.city-input-container{} 
+//.icon-location{}
+//.search{}
+//.start-button
+
+
+
 .top-cities-div{
     display: flex;
 
@@ -11,6 +18,16 @@
     background-color: aqua;
     cursor: pointer;
 }
+
+//.more-cities-btn{}
+
+//.city-weather-div{}
+
+//.cloudy-icon{}
+
+//.city{}
+
+//.temp{}
 
 .minmax-div{
     display: flex;
@@ -29,12 +46,17 @@
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
 .btn-item{
     background-color: chartreuse;
     border: 1px solid gray;
     padding: 2px;
     cursor: pointer;
 }
+
+//.sayings{}
+
+//.calendar-div{}
 
 .calendar-space{
     display: flex;
