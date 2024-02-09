@@ -1,0 +1,2 @@
+const e=({city:e})=>fetch(`https://api.openweathermap.org/geo/1.0/direct?q=${e}&limit=5&appid=6d58dd1d0c89ba0a8e87723002ac6b55`).then((e=>{if(!e.ok)throw new Error(e.status);return e.json()})),t=document.getElementById("search");t.addEventListener("input",(async()=>{if(""!==t.value.trim())try{t.classList.remove("error");const r=await e({city:t.value.trim()});console.log(r[0])}catch(e){console.log(e)}else t.classList.add("error")}));
+//# sourceMappingURL=index.0bce44f2.js.map
