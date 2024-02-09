@@ -1,6 +1,6 @@
 //.city-input-container{} 
 .icon-location{
-    stroke: aliceblue;
+    fill: black;
 }
 //.search{}
 .start-button{
@@ -9,7 +9,8 @@
 }
 
 .star-icon{
-    fill: orangered;
+    fill: transparent;
+    stroke: black;
 }
 
 
@@ -20,12 +21,16 @@
 }
 
 .top-cities-list{
+    margin-top: 10px;
     display: flex;
+    gap: 5px;
 }
 
 .top-city-btn{
     background-color: aqua;
     cursor: pointer;
+    display: flex;
+    gap: 5px;
 }
 
 .more-cities-btn{

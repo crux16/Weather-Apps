@@ -1,31 +1,32 @@
 <header>
     <div class="container">
         <div class="city-input-container">
-        
-            <i class="location-icon">
-                <svg class="icon-location" width="20" height="20">
-                    <use href="./images/icons.svg#icon-location"></use>
-                </svg>
-            </i>
-            <input type="text" name="search" id="search" class="search" placeholder="Enter the city">
-
-            <div>
+            <div class="search-container">
+                <form action="" class="form-search">  
+                <!-- DOM name: searchEl -->
+                <input type="text" name="search" id="search" class="search" placeholder="Enter the city">
+                <button type="button" class="location-icon">
+                    <svg class="icon-location" width="20" height="20">
+                        <use href="./images/icons.svg#icon-location"></use>
+                    </svg>
+                </button>
+                </form>
                 <button class="star-button">
                     <svg class="star-icon" width="20" height="20">
                         <use href="./images/icons.svg#icon-star-1"></use> 
                         </svg>  
                 </button>
             </div>
-
+            <p id="city"></p>
             <div class="top-cities-div">
                 <ul class="top-cities-list">
-                    <li><button class="top-city-btn">Kyiv</button></li>
+                    <li class="top-city-btn"><a href="#">Kyiv</a><span>&times;</span></li>
                     
-                    <li><button class="top-city-btn">Paris</button></li>
+                    <li class="top-city-btn"><a href="#">Paris</a></li>
                     
-                    <li><button class="top-city-btn">Vinnytsya</button></li>
+                    <li class="top-city-btn"><a href="#">Vinnytsya</a></li>
 
-                    <li><button class="top-city-btn">Warsaw</button></li>
+                    <li class="top-city-btn"><a href="#">Warsaw</a></li>
 
                     <li><button class="more-cities-btn">
                         <svg class="arrow-right-icon" width="15" height="15">

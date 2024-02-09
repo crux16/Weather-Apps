@@ -1,3 +1,7 @@
+.form-search, .search-container {
+    position: relative;
+}
+
 .search {
     width: 100%;
     height: 48px;
@@ -14,10 +18,36 @@
     outline: none;
 }
 
+.search.error {
+    animation: error 5000ms ease-in;
+}
+
+@keyframes error {
+    5% {border-color: red;}
+    95% {border-color: red;}
+}
+
+.location-icon, .star-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.location-icon {
+    left: 10px;
+}
+
+.star-button {
+    right: 10px;
+}
+
 body{
     
     background-image: url(../images/bg-img-body.jpeg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size:cover;
 }
