@@ -1,7 +1,16 @@
 //.city-input-container{} 
-//.icon-location{}
+.icon-location{
+    stroke: aliceblue;
+}
 //.search{}
-//.start-button
+.start-button{
+    stroke: black;
+    cursor: pointer;
+}
+
+.star-icon{
+    fill: orangered;
+}
 
 
 
@@ -19,11 +28,16 @@
     cursor: pointer;
 }
 
-//.more-cities-btn{}
+.more-cities-btn{
+    background-color: aqua;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
 
 //.city-weather-div{}
 
-//.cloudy-icon{}
+//.cloudy-icon{} 
 
 //.city{}
 
