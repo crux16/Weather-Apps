@@ -7,15 +7,14 @@ main {
 .city-weather-div{
     position: relative;
     width: 280px;
+    // width: auto;
     height: 190px;
     background-color: rgba(186, 93, 233, 0.72);
-    
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-top: 0px;
     border-radius: 15px;
-    left: 13%;
 }
 
 .cloudy-icon{
@@ -60,8 +59,8 @@ main {
 
 .buttons-div{
     display: flex;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     gap: 30px;
     justify-content: center;
 }
@@ -80,9 +79,6 @@ main {
 
 }
 
-
-
-
 .calendar-div{
     background-color: rgba(33, 51, 51, 0.575);
     width: 280px;
@@ -92,15 +88,24 @@ main {
     position: relative;
     flex-direction: column;
     justify-content: center;
-    left: 13%;
-    gap: 10px;
+    text-align: center;
+    // left: 13%;
+    gap: 20px;
     color: white;
+}
+
+.date-day{
+    font-size: 30px;
+    font-weight: 400;
 }
 
 .calendar-space {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    // text-align: center;
+    align-items: center;
+    gap: 20px;
 }
 
 .sunrise-icon{
@@ -114,14 +119,15 @@ main {
 .sayingsdiv{
     width: 280px;
     height: 95px;
-    background-color: rgba(33, 51, 51, 0.575);
+    // background-color: rgba(33, 51, 51, 0.575);
     // display: flex;
     // flex-direction: column;
+    color: white;
     justify-content: end;
     align-items: center;
-    margin-top: 30px;
+    // margin-top: 30px;
     position: relative;
-    left: 13%;
+    // left: 13%;
 }
 
 .sayings{
@@ -137,6 +143,7 @@ main {
     font-size: 18px;
     color: white;
     text-transform: capitalize;
+    // align-items: center;
     justify-content: end;
     text-align-last: right;
 }
