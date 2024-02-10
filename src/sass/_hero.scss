@@ -1,0 +1,142 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.city-weather-div{
+    position: relative;
+    width: 280px;
+    height: 190px;
+    background-color: rgba(186, 93, 233, 0.72);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 0px;
+    border-radius: 15px;
+    left: 13%;
+}
+
+.cloudy-icon{
+    fill:lightgray;
+    position: absolute;
+    top: 12%;
+    left: 47%;
+} 
+
+.city{
+    color: white;
+    font-weight: bolder;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.temp{
+    color: white;
+    font-size: 40px;
+}
+
+.minmax-list{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.min{
+    display: block;
+}
+
+.max{
+    display: flex;
+    flex-direction: column;
+}
+
+.maxdiv{
+    display: grid;
+}
+
+.buttons-div{
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    gap: 30px;
+    justify-content: center;
+}
+
+.btn-item{
+    display: flex;
+    background-color: chartreuse;
+    width: 125px;
+    height: 28px;
+    border: 1px solid orange;
+    border-radius: 20px;
+    padding: 2px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+
+
+
+.calendar-div{
+    background-color: rgba(33, 51, 51, 0.575);
+    width: 280px;
+    height: 190px;
+    border-radius: 15px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    left: 13%;
+    gap: 10px;
+    color: white;
+}
+
+.calendar-space {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sunrise-icon{
+    stroke: orange;
+}
+
+.sunset-icon{
+    stroke: orange;
+}
+
+.sayingsdiv{
+    width: 280px;
+    height: 95px;
+    background-color: rgba(33, 51, 51, 0.575);
+    // display: flex;
+    // flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    margin-top: 30px;
+    position: relative;
+    left: 13%;
+}
+
+.sayings{
+    color: white;
+    font-size: 14px;
+    font-style: italic;
+    text-align-last: right;
+    
+}
+
+.daleevans{
+    position: relative;
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    justify-content: end;
+    text-align-last: right;
+}

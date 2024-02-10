@@ -1,78 +1,63 @@
-//.city-input-container{} 
+.city-input-container{
+    position: relative;
+    padding-bottom: 20px;
+    padding-top: 20px;
+} 
+
 .icon-location{
-    stroke: aliceblue;
+    stroke: black;
+    fill: white;
+    position: absolute;
+    top: 29%;
+    left: 4%
 }
 //.search{}
-.start-button{
-    stroke: black;
-    cursor: pointer;
-}
 
 .star-icon{
-    fill: orangered;
+    fill: white;
+    stroke: red;
+    position: absolute;
+    top: 28%;
+    right: 6%;
 }
-
-
 
 .top-cities-div{
     display: flex;
-
 }
 
 .top-cities-list{
     display: flex;
+    gap: 10px;
+    margin-top: 10px;
 }
 
 .top-city-btn{
-    background-color: aqua;
+    background-color: yellow;
     cursor: pointer;
+    // font-size: 12px;
+    width: 74px;
+    height: 28px;
+    padding: 0 12px 0 12px;
+    border: 1px solid dimgray;
+    border-radius: 20px;
+    // text-decoration: underline;
+    text-decoration: underline;
 }
+
+// .top-cities-list.li{
+//     font-size: 12px;
+// }
 
 .more-cities-btn{
-    background-color: aqua;
+    display: flex;
+    background-color: yellow;
     align-items: center;
     justify-content: center;
+    border-radius: 20%;
+    border: 1px solid dimgray;
+    width: 28px;
+    height: 20px;
     cursor: pointer;
-}
-
-//.city-weather-div{}
-
-//.cloudy-icon{} 
-
-//.city{}
-
-//.temp{}
-
-.minmax-div{
-    display: flex;
-    gap: 20px;
-}
-
-.min{
-    display: block;
-}
-
-.max{
-    display: block;
-}
-
-.buttons-div{
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.btn-item{
-    background-color: chartreuse;
-    border: 1px solid gray;
-    padding: 2px;
-    cursor: pointer;
-}
-
-//.sayings{}
-
-//.calendar-div{}
-
-.calendar-space{
-    display: flex;
+    margin-left: 108px;
 }
 

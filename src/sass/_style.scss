@@ -15,9 +15,26 @@
 }
 
 body{
-    
-    background-image: url(../images/bg-img-body.jpeg);
+    min-width: 320px;
+    max-width: 428px;
+    height: 826px;
+    background-image: url(../images/oceansky3.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    justify-content: center;
+
+    @media screen and(min-width: 768px) {
+        max-width: 768px;
+        background-image: url(../images/oceansky3.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        justify-content: space-between;
+    }
+
+    @media screen and(min-width: 1158px) {
+        max-width: 1200px;
+        justify-content: space-between;
+    }
 }
