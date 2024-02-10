@@ -7,18 +7,18 @@
 .icon-location{
     stroke: black;
     fill: white;
-    position: absolute;
-    top: 28%;
-    left: 4%
+    // position: absolute;
+    // top: 35%;
+    // left: 4%
 }
 //.search{}
 
 .star-icon{
     fill: white;
     stroke: red;
-    position: absolute;
-    top: 27%;
-    right: 6%;
+    // position: absolute;
+    // top: 27%;
+    // right: 6%;
 }
 
 .top-cities-div{
@@ -30,6 +30,13 @@
     display: flex;
     gap: 10px;
     margin-top: 10px;
+}
+
+.iconx{
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .kiev{
@@ -57,7 +64,8 @@
 
 .vectorx{
     stroke: black;
-    position: absolute;
+    fill: black;
+    // position: absolute;
 }
 
 // .top-cities-list.li{
