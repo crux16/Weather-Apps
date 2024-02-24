@@ -1,7 +1,7 @@
 //five days div section
 .buttons-div {
     display: flex;
-    padding-top: 20px;
+    padding-top: 15px;
     padding-bottom: 20px;
     gap: 30px;
     justify-content: center;
@@ -39,7 +39,7 @@
     align-items: center;
     background-color: rgba(26, 21, 21, 0.679);
     border-radius: 10px;
-    padding-top: 15px;
+    padding-top: 25px;
     padding-bottom: 15px;
 }
 
@@ -63,6 +63,7 @@
 .daysitem{
     display: flex;
     flex-direction: column;
+    row-gap: 10px;
     justify-content: center;
     align-items: center;
 }
