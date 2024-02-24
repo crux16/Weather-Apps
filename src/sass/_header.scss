@@ -46,9 +46,17 @@
     align-items: start;
 }
 
+.paris{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
 .top-city-btn{
     display: flex;
-    background-color: yellow;
+    background-color: rgb(4, 250, 4);
     cursor: pointer;
     font-size: 12px;
     width: 74px;
@@ -58,23 +66,35 @@
     justify-content: center;
     border: 1px solid dimgray;
     border-radius: 20px;
-    // text-decoration: underline;
     text-decoration: underline;
+    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.top-city-btn:hover{
+    // font-size: 12.5px;
+    border: 1px solid white;
 }
 
 .vectorx{
     stroke: black;
     fill: black;
-    // position: absolute;
+    position: absolute;
+    top: 35%;
+    right: 5px;
+    cursor: pointer;
+
+    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-// .top-cities-list.li{
-//     font-size: 12px;
-// }
+.vectorx:hover{
+    stroke: red;
+    stroke-width: 10px;
+}
+
 
 .more-cities-btn{
     display: flex;
-    background-color: yellow;
+    background-color: rgb(4, 250, 4);
     align-items: center;
     justify-content: center;
     border-radius: 50%;
@@ -83,5 +103,16 @@
     height: 28px;
     cursor: pointer;
     margin-left: 80px;
+    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.more-cities-btn:hover{
+    border: 1px solid white;
+    fill: red;
+    
+}
+
+// .arrow-right-icon{
+//     stroke-width: 10px;
+// }
 
