@@ -1,0 +1,51 @@
+//weather details div
+.detailsdiv{
+    display: flex;
+    justify-content: center;
+}
+
+.negativetemplist{
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.negativetemp{
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    height: 218px;
+    justify-content: center;
+    
+}
+
+.timetext{
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.temptext{
+    font-size: 18px;
+    font-weight: 700;
+    color: #FF6B09;
+    padding-top: 10px;
+}
+
+.humbarwin{
+    color: white;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 6px;
+    padding-top: 15px;
+    justify-content: center;
+}
+
+.humbarwin-item{
+    display: flex;
+    gap: 7px;
+}

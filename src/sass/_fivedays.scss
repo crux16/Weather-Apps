@@ -1,0 +1,153 @@
+//five days div section
+.buttons-div {
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    gap: 30px;
+    justify-content: center;
+}
+
+.btn-item {
+    display: flex;
+    background-color: rgba(255, 0, 208, 0.858);
+    width: 125px;
+    height: 28px;
+    font-size: 14px;
+    font-weight: 700;
+    border: 1px solid rgb(145, 255, 0);
+    border-radius: 20px;
+    padding: 2px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-item:hover, 
+.btn-item:focus{
+    border: 1px solid rgb(126, 249, 3);
+    color: rgb(126, 249, 3);
+    transform: scale(1.05);
+    opacity: 1;
+}
+
+.fivedaysdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(26, 21, 21, 0.679);
+    border-radius: 10px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+.citylabel{
+    color: white;
+    font-size: 18px;
+    justify-content: center;
+    // align-items: center;
+    margin-bottom: 15px;
+    // margin-top: 15px;
+}
+
+.days{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.daysitem{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.daytext{
+    font-size: 12px;
+}
+
+.daymonth{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.minmaxtext{
+    font-size: 12px;
+}
+
+.minmax-list {
+    display: flex;
+    // flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+
+.min {
+    display: block;
+}
+
+.max {
+    display: flex;
+    flex-direction: column;
+}
+
+.maxdiv {
+    display: grid;
+}
+
+.tempdeg{
+    color: #FF6B09;
+}
+
+.moretext{
+    color: white;
+    font-size: 12px;
+
+}
+
+.morediv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.arrowlist{
+    display: flex;
+    // width: 58px;
+    // height: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+}
+
+.arrowitem{
+    position: relative;
+}
+
+.arrow {
+    position: absolute;
+    color: white;
+    stroke: white;
+    // fill: transparent;
+}
+
+.showtext {
+    font-size: 14px;
+    color: #FF6B09;
+
+}
+
+.showdiv{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
